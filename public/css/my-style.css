@@ -1,0 +1,64 @@
+.my-container{
+    background-image: url('../Assets/bg.jpg');
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-clip: content-box;
+    z-index: -5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(20px); }
+    100% { transform: translateY(-10px); }
+  }
+   @keyframes mover {
+    0% { transform: translateY(20px); }
+    100% { transform: translateY(-10px); }
+  }
+.logo {
+  height: 140px;
+  width: 140px;
+  margin-left: 208px;
+  margin-top: 420px;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+  position: relative;
+}
+.nom{
+    color: #39393a;
+    font-family: 'LitSans Medium' , sans-serif ;
+    font-size: medium;
+    font-size: 50px;
+    margin-left: 130px;
+    margin-top:35px;
+}
+.title2{
+    color:#e9e9eb;
+    font-family: 'LitSans Medium' , sans-serif ;
+    font-size: medium;
+    font-size: 32px;
+    margin-left: 50px;
+}
+.title3{
+    color:#e9e9eb;
+    font-family: 'LitSans Medium' , sans-serif ;
+    font-size: medium;
+    font-size: 22px;
+    margin-left: 50px;
+}
+.title4{
+    
+    color:#e9e9eb;
+    font-family: 'LitSans Medium' , sans-serif ;
+    font-size: medium;
+    font-size: 27px;
+    margin-left: 50px;
+}
+.nous{
+    text-align: center;
+    color: #39393a;
+}
