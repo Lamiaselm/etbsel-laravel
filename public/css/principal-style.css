@@ -34,18 +34,17 @@ body{
 #banner{
     background-image: linear-gradient(to right,#fecd3f,#e89707);
    
-    padding: 5%;
+    padding-top: 5%;
 
 }
-.first-titile{
+.first-title{
     font-size: 40px;
     font-weight: 600;
     padding-top: 100px;
     font-family: 'LitSans Medium' , sans-serif ;
     color: #39393a;
-
 }
-.second-titile{
+.second-title{
     font-family: 'LitSans Medium' , sans-serif ;
     font-size: 20px;
     color: white;
