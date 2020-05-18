@@ -16,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('principal');
 });
-Route::get('/accueil', function () {
-    return view('accueil');
-});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::view('contact','contact');
+Route::post('submit','MailController@getData');
+
+
