@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
 
 class MailController extends Controller
 {
@@ -29,5 +31,14 @@ class MailController extends Controller
                 'msg'=>'required'
             ]
         );
+        $data=array(
+            'nom'=>$request->nom,
+            'mail'=>$request->mail,
+            'sujet'=>$request->sujet,
+            'msg'=>$request->msg
+
+        );
+        Mail::to('hl_selmane@esi.dz')->send(new SendMail($data));
+        return back()->with('success','Merci de nous avoir contacter ! *-*');
     }
 }
