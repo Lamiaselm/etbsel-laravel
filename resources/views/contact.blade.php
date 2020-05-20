@@ -49,7 +49,23 @@
                 <div class="col-md-6">
                   
                   <h1 class="contact-title">Contactez-nous !</h1>
-                  <form action="submit" method="POST">
+                  @if(count($errors)>0)
+                  <div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">x</button>
+                  <ul>
+                    @foreach($errors->all() as $error)
+                  <li>{{$error}}</li>
+                  @endforeach
+                  </ul>
+                  </div>
+                  @endif
+                  @if ($message=Session::get('success'))
+                  <div class="alert alert-success alert-block">
+                    <button type="button" class="clode" data-dismiss="alert">x</button>
+                  <strong>{{$message}}</strong>
+                  </div>
+                  @endif
+                <form action="{{url('contact/send')}}" method="POST">
                     @csrf
                     <div class="form-group">
                       <label for="">Nom et prénom</label>

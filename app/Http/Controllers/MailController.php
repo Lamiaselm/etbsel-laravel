@@ -15,4 +15,19 @@ class MailController extends Controller
         $msg = $request->Input('msg');
         print_r( $name);
     }
+    public function index()
+    {
+        return view('contact');
+    }
+    public function send (Request $request)
+    {
+        $this->validate($request,
+            [
+                'nom'=>'required',
+                'mail'=>'required|email',
+                'sujet'=>'required',
+                'msg'=>'required'
+            ]
+        );
+    }
 }
