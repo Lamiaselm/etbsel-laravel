@@ -10,10 +10,8 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
       />
-     
-      <script>
-        AOS.init();
-      </script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <section id="nav-bar">
@@ -66,19 +64,19 @@
           <div class="container text-center">
             <h1 class="title">Qui sommes nous ?</h1>
             <div class="row text-center">
-              <div class="col-md-4 nous">
+              <div class="col-md-4 nous" data-aos="fade-up">
                <img src="Assets/pic1.png" class="nous-img">
                <h4>Fondation</h4>
                <p>L'Entreprise a été fondée par Mr SELMANE SLIMANE suivant le registre de commerce n°02/00-4537049 A06,elle regroupe plus
                  de 50 employés qualifiés et motivés pour le travail.
                </p>
               </div>
-              <div class="col-md-4 nous">
+              <div class="col-md-4 nous" data-aos="fade-up">
                 <img src="Assets/when.png" class="nous-img">
                 <h4>Date et lieu</h4>
                 <p>L'Entreprise a commencé son activité en 13 Septembre 2006 à Chlef.Son local se trouve à 08 Cité de la république.</p>
                </div>
-               <div class="col-md-4 nous">
+               <div class="col-md-4 nous" data-aos="fade-up">
                 <img src="Assets/what.png" class="nous-img">
                 <h4>Objectif</h4>
                 <p>Notre entreprise s’appuie sur une certaine technicité acquit durant ces trois dernières années en matière de travaux de construction en bâtiment.</p>
@@ -92,19 +90,19 @@
           <div class="container text-center">
             <h1 class="title">Notre processus de travail</h1>
             <div class="row text-center">
-              <div class="col-md-4 processus">
+              <div class="col-md-4 processus" data-aos="fade-up">
                <img src="Assets/installation.png" class="processus-img">
                <h4>installation</h4>
                <p>l’installation du chantier comporte essentiellement mettre en place les différents bureaux, moyens de liaison, ateliers et aire de stockage des matériaux.
                  Pour preparer le terrain à la phase du réalisation du projet en question</p>
               </div>
-              <div class="col-md-4 processus">
+              <div class="col-md-4 processus" data-aos="fade-up">
                 <img src="Assets/realisation.png" class="processus-img" style="height:109.20px ;">
                 <h4>Réalisation</h4>
                 <p>La réalisation consiste a commencer l'exécution des travaux conformément aux plans d’exécution fournies par le maitre de l’œuvre, pour valider le cheminement et le fonctionnement des différentes 
                   taches des travaux (infrastructure, superstructure, cloisonnement, conduits de ventilation, réseaux sous dallage et autres travaux)</p>
                </div>
-               <div class="col-md-4 processus">
+               <div class="col-md-4 processus" data-aos="fade-up">
                 <img src="Assets/reception.png" class="processus-img">
                 <h4>Réception</h4>
                 <p>En fin de chantier, notre conducteur de travaux assistera le maitre d’Ouvrage (utilisateur) pour la formation à l’utilisation du matériel installé.
@@ -120,14 +118,14 @@
              <div class="container text-center">
                <h1 class="title">Nos services</h1>
                <div class="row text-center">
-                 <div class="col-md-6 services">
+                 <div class="col-md-6 services" data-aos="fade-right">
                   <img src="Assets/ecole.png" class="services-img">
                   <h4>Services pédagogiques</h4>
                   <p>Pour les services nous avons en premier tout ce qui projet pédagogique, nous citons écoles primaires
                     les CEM,les lycées,batiments administratif et restauration.
                   </p>
                  </div>
-                 <div class="col-md-6 services">
+                 <div class="col-md-6 services" data-aos="fade-left">
                   <img src="Assets/residence.png" class="services-img" style="height: 112.52px;">
                   <h4>Services résidentiels</h4>
                   <p>En deuxième nous offrons tout ce qui projet résidentiels, nous citons les maisons privées,les villas,les logements,les habitats collectifs,
@@ -143,7 +141,7 @@
               <div class="container text-center">
                 <h1 class="title">Pourquoi nous choisir ?</h1>
                 <div class="row text-center">
-                  <div class="col-md-6 pknous">
+                  <div class="col-md-6 pknous" data-aos="fade-right">
                    <h4>Choisissez-nous pour réaliser des projets de qualité</h4>
                    <ul>
                      <li>Offrir à notre clientèle les meilleures solutions dans l’élaboration de leurs rêves en matière d’habitation.</li>
@@ -154,7 +152,7 @@
 
                    </ul>
                   </div>
-                  <div class="col-md-6 pknous">
+                  <div class="col-md-6 pknous" data-aos="fade-left">
                    <img src="Assets/partenaire.png" class="img-fluid text-center" >
                   
                   </div>
@@ -186,7 +184,7 @@
                    <h4>Contactez-nous!</h4>
                    <a href=/contact>Contactez-nous</a>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6" data-aos="zoom-in">
                    <img src="Assets/logo.png" style="height: 100px;width: 100px; margin-bottom: 20px;">
                    <p>&copy; ETBSEL</p>
                    </div>
@@ -199,3 +197,9 @@
     </body>
     
 </html>
+<script>
+  AOS.init({
+    duration:1800,
+  });
+
+</script>
