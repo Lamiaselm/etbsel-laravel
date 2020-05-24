@@ -285,7 +285,7 @@ transition: 0.5s;
     background-color:  #39393a;
 }
 /*--------------------------ANIMATION-------------------------------------*/
-#nous .nous{
-    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-}
+/* #nous .nous{
+    animation: fadeInUp; 
+    animation-duration: 2s; 
+}*/
