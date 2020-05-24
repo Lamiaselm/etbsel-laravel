@@ -7,6 +7,8 @@
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
  </head>
  <body>
          <!------------------------------------- Navbar section-------------------------------------------------->
@@ -43,7 +45,8 @@
     <div class="container">
         <div class="row">
           
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                         <img src="Assets/mail.png" class="img-fluid mail">
                 </div>
                 <div class="col-md-6">
@@ -101,11 +104,11 @@
   
   <div class="container text-center">
     <div class="row text-center">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="zoom-in">
      <h4 style="color: white;padding-top:50px;">Contactez-nous!</h4>
      <a href=/contact style="color: white">Contactez-nous</a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="zoom-in">
      <img src="Assets/logo.png" style="height: 100px;width: 100px; margin-bottom: 20px;">
      <p style="color: white">&copy; ETBSEL</p>
      </div>
@@ -118,3 +121,9 @@
   AOS.init();
 </script>
 </html>
+<script>
+  AOS.init({
+    duration:1800,
+  });
+
+</script>
