@@ -24,7 +24,7 @@
                       <a class="nav-link" href="/#banner">Accueil</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/#nous">Apropos</a>
+                      <a class="nav-link" href="/#nous">Equipe</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/#services">Services</a>
