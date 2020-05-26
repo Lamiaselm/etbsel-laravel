@@ -25,10 +25,10 @@ class MailController extends Controller
     {
         $this->validate($request,
             [
-                'nom'=>'required',
+                'nom et prénom '=>'required',
                 'mail'=>'required|email',
                 'sujet'=>'required',
-                'msg'=>'required'
+                'message'=>'required'
             ]
         );
         $data=array(
