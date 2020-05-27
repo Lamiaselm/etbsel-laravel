@@ -21,19 +21,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="/#banner">Accueil</a>
+                      <a class="nav-link" href="/#banner"><i class="fa fas fa-home"></i>&nbsp; Accueil</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/#nous">Equipe</a>
+                      <a class="nav-link" href="/#nous"><i class="fa fas fa-users"></i>&nbsp;Equipe</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/#services">Services</a>
+                      <a class="nav-link" href="/#services"><i class="fa fas fa-tasks"></i>&nbsp;Services</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/#pknous">Offres</a>
+                    <a class="nav-link" href="/#pknous"><i class="fa fas fa-heart"></i>&nbsp;Offres</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="contact"><i class="fa fas fa-envelope"></i>&nbsp;Contact</a>
                     </li>
                   </ul>
                 </div>
