@@ -109,7 +109,7 @@
      <a href=/contact style="color: white">Contactez-nous</a>
     </div>
     <div class="col-md-6" data-aos="zoom-in">
-     <img src="Assets/logo.png" style="height: 100px;width: 100px; margin-bottom: 20px;">
+   <a href="/">  <img src="Assets/logo.png" style="height: 100px;width: 100px; margin-bottom: 20px;"></a>
      <p style="color: white">&copy; ETBSEL</p>
      </div>
     </div>
