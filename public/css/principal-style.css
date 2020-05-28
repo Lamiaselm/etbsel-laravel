@@ -22,8 +22,8 @@ body{
 .navbar-nav li a {
     color: #ffffff !important;
     font-weight: 600;
-    float: right;
-    text-align: left;
+    float: center;
+    text-align: center;
 }
 .fa-bars{
     color: white;
