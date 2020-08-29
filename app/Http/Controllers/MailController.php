@@ -39,6 +39,6 @@ class MailController extends Controller
 
         );
         Mail::to('hl_selmane@esi.dz')->send(new SendMail($data));
-        return back()->with('success','Merci de nous avoir contacter ! *-*');
+        return back()->with('success','Merci de nous avoir contacter !');
     }
 }
