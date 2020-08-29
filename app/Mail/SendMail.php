@@ -19,7 +19,7 @@ class SendMail extends Mailable
     public function __construct($data)
     {
         $this->data=$data;
-        print_r($this->data['mail']);
+       // print_r($this->data['mail']);
     }
 
     /**
